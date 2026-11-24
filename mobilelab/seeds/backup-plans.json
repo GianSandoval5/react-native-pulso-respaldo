@@ -1,0 +1,70 @@
+[
+  {
+    "id": "demo-trabajo",
+    "name": "Trabajo y conectividad",
+    "batteryWh": 1200,
+    "maxWatts": 1000,
+    "reservePercent": 15,
+    "devices": [
+      {
+        "id": "router",
+        "name": "Router",
+        "watts": 18,
+        "hours": 6,
+        "essential": true,
+        "enabled": true
+      },
+      {
+        "id": "laptop",
+        "name": "Laptop de trabajo",
+        "watts": 90,
+        "hours": 5,
+        "essential": true,
+        "enabled": true
+      },
+      {
+        "id": "monitor",
+        "name": "Monitor",
+        "watts": 42,
+        "hours": 4,
+        "essential": false,
+        "enabled": false
+      }
+    ],
+    "drills": [
+      {
+        "id": "drill-demo",
+        "at": "2026-11-20T15:00:00.000Z",
+        "energyWh": 558,
+        "peakWatts": 108,
+        "result": "ready"
+      }
+    ]
+  },
+  {
+    "id": "demo-noche",
+    "name": "Noche segura",
+    "batteryWh": 500,
+    "maxWatts": 400,
+    "reservePercent": 20,
+    "devices": [
+      {
+        "id": "lamp",
+        "name": "Lámpara LED",
+        "watts": 10,
+        "hours": 6,
+        "essential": true,
+        "enabled": true
+      },
+      {
+        "id": "phone",
+        "name": "Carga de teléfono",
+        "watts": 20,
+        "hours": 2,
+        "essential": true,
+        "enabled": true
+      }
+    ],
+    "drills": []
+  }
+]

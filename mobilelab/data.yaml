@@ -1,0 +1,6 @@
+schema_version: 1
+resources:
+  backup-plans:
+    path: /api/backup-plans
+    id: id
+    seed: seeds/backup-plans.json

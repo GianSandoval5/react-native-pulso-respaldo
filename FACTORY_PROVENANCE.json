@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "owner": "GianSandoval5",
+  "request": {
+    "framework": "react-native",
+    "repo_name": "react-native-pulso-respaldo",
+    "app_name": "pulso_respaldo",
+    "project_dir": "projects/pulso-respaldo",
+    "description": "Planificador dom\u00e9stico de respaldo energ\u00e9tico con simulacros, React Native Expo y MobileLab SQLite."
+  },
+  "source_sha": "098f0c3d1f2681eb39ac8fd58dbb99a227fcdef8",
+  "run_url": "https://github.com/GianSandoval5/mobile-ai-factory/actions/runs/45410884425",
+  "sdk": {
+    "node": "v22.23.5",
+    "packages": {
+      "expo": "~57.0.33",
+      "expo-build-properties": "~57.0.23",
+      "expo-status-bar": "~57.0.1",
+      "react": "19.2.3",
+      "react-native": "0.86.3",
+      "react-native-safe-area-context": "~5.7.0"
+    }
+  },
+  "tests_passed": 16,
+  "coverage_lines": {
+    "hit": 201,
+    "found": 215
+  },
+  "analysis": "passed",
+  "build": {
+    "kind": "expo-android-bundle",
+    "status": "passed"
+  },
+  "dependency_audit": {
+    "provider": "npm audit",
+    "scope": "production",
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 3,
+      "high": 0,
+      "critical": 0,
+      "total": 3
+    }
+  },
+  "source_digest": "25823563567376b9a901070d0cb7844fff6e56906c7637f10550ed4d0cc56c66"
+}
